@@ -1,0 +1,15 @@
+{
+  "name": "canvas-overlay",
+  "version": "1.0.0",
+  "description": "simple solution for drawing 2d over a 3d scene using three js",
+  "main": "src/index.js",
+  "scripts": {
+    "auto": "watchify ./test/index.js -o ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smith",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.99.0"
+  }
+}
